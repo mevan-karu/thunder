@@ -96,6 +96,7 @@ The following table lists the configurable parameters of the Thunder chart and t
 | `deployment.image.pullPolicy`           | Thunder image pull policy                                                               | `Always`                       |
 | `deployment.terminationGracePeriodSeconds` | Pod termination grace period in seconds                                              | `10`                           |
 | `deployment.container.port`             | Thunder container port                                                                  | `8090`                         |
+| `deployment.env`                        | Additional environment variables for Thunder container                                  | `[]`                           |
 | `deployment.startupProbe.initialDelaySeconds` | Startup probe initial delay seconds                                               | `1`                            |
 | `deployment.startupProbe.periodSeconds` | Startup probe period seconds                                                            | `2`                            |
 | `deployment.startupProbe.failureThreshold` | Startup probe failure threshold                                                      | `30`                           |
